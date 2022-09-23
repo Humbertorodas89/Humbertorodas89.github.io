@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+}
+
+header{
+    height: 65px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #2e5652;
+    position: fixed;
+    z-index: 1000;
+    top: 0%;
+    width: 100%;
+} 
+
+#ap{
+    font-size: 19px;
+    margin: 10px;
+    border-radius: 2px;
+}
+
+
+#logo_navbar{
+    margin-left: 30px;
+}
+
+.navbar{
+    margin-left: 20px;
+}
+
+.carrusel img{
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.carrusel iframe{
+    position: absolute;
+    top: 15%;
+    left: 57%;
+}
+
+.carrusel #cerrar_btn{
+    position: absolute;
+    top: 15%;
+    left: 95%;
+    background-color: #2e5652;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-weight: 500;
+    padding: 5px 9px 2px 9px;
+}
+
+.carrusel #abrir_btn{
+    position: absolute;
+    top: 15%;
+    left: 95%;
+    background-color: #2e5652;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-weight: 500;
+    padding: 0px 9px 6px 9px;
+}
+
+.carrusel button:hover{
+    background-color: #0D6759;
+}
+
+.acercade{
+    height: 480px;
+    background-color: white;
+}
+
+.texto-justificado{
+    text-align: justify;
+}
+
+
+.instalaciones img{
+    height: 600px;
+}
+
+.niveles{
+    background-color: white;
+    height: 650px;
+    display: flex;
+    align-items: center;
+}
+
+.niveles p{
+    text-align: justify;
+}
+
+.niveles a{
+    text-decoration: none;
+    background-color: #0D6759;
+    color: white;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 4px;
+}
+
+.niveles a:hover{
+    color: #ccc;
+}
+
+footer{
+    height: 120px;
+    background-color: #2e5652;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+footer h6{
+    font-family: 'Roboto', sans-serif;
+}
+
+footer p{
+    color: rgb(176, 176, 176);
+    font-size: 15px;
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(176, 176, 176);
+    font-size: 15px;
+}
+
+footer a:hover{
+    color: white;
+}
+
+.separador{
+    height: 20px;
+    background-color: #0D6759;
+    width: 100%;
+}
+
+.titulo_historia, .titulo_vision{
+    height: 100px;
+    padding: 5.2% 0 0 0;
+    text-align: center;
+}
+
+.cuerpo_historia p{
+    text-align: justify;
+    font-size: large;
+}
+
+
+.primeras_imagenes_historia img{
+    height: 340px;
+}
+
+.segundas_imagenes_historia img{
+    height: 400px;
+}
+
+.vision img, .mision img{
+    height: 340px;
+}
+
+footer h6{
+    color: white;
+}
+
+.cuerpo_valores .titulo_valores{
+    height: 160px;
+    padding-top: 70px;
+    margin-bottom: 20px;
+}
+
+.cuerpo_niveles .preprimaria_primaria{
+    height: 500px;
+    background-image: url("../img/niveles\ primario.jpg");
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: 65px;
+    color: white;
+}
+
+.cuerpo_niveles a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.cuerpo_niveles a:hover{
+    color: rgb(136, 135, 135);
+}
+
+.cuerpo_niveles .basico{
+    height: 500px;
+    background-image: url("../img/niveles\ basico.jpg");
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+}
+
+.cuerpo_niveles .diversificado{
+    height: 500px;
+    background-image: url("../img/niveles\ diversificado.jpg");
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+}
+
+.valores img{
+    height: 280px;
+}
+
+.valores .imagen_rara{
+    width: 420px;
+}
+
+.valores .img{
+    position: relative;
+    display: inline-block;
+}
+
+.valores .texto{
+    position: absolute;
+    top: 28%;
+    text-align: center;
+    color: white;
+    margin: 0 10px;
+}
+
+.body_quienes_somos{
+    height: 100vh;
+    background-image: url("../img/quienes\ somos.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.cuerpo_quienes_somos{
+    color: white;
+    height: 84%;
+    display: flex;
+    align-items: center;
+}
+
+.cuerpo_carreras{
+    height: 100%;
+    background-image: url("../img/Carreras.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    padding-top: 4.5%;
+}
+
+.cuerpo_carreras a{
+    color: white; 
+    text-decoration: none;
+}
+
+.cuerpo_carreras a:hover{
+    color: rgb(136, 135, 135);
+}
+
+
+
+

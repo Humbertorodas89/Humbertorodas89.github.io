@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/estilos.css">
+  <link rel="shortcut icon" href="assets/img/logo-verde.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a955e9d234.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <title>Pagina de inicio</title>
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header>
+    <a href="index.html"><img id="logo_navbar" src="assets/img/logo blanco.png" class="img-fluid" width="60" height="40" alt=""></a>
+    <nav class="navbar navbar-expand-lg navbar-dark navbar navbar" id="menu_fixed">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ulpr">
+            <li class="nav-item">
+              <a id="ap" class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a  id="ap" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Nosotros
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="historia.html">Historia</a></li>
+                <li><a class="dropdown-item" href="mision y vision.html">Misión y visión</a></li>
+                <li><a class="dropdown-item" href="quienes somos.html">Quienes Somos</a></li>
+                <li><a class="dropdown-item" href="nuestros valores.html">Nuestros Valores</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a id="ap" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Niveles
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="niveles.html">Niveles</a></li>
+                <li><a class="dropdown-item" href="carreras.html">Carreras</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a id="ap" class="nav-link" href="contacto.html ">Contacto</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a id="ap" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Cursos
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="ingles.html">Inglés</a></li>
+                <li><a class="dropdown-item" href="alfa claps.html">Alfa Claps</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- CARRUSEL -->
+  <div class="carrusel">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3500">
+          <img src="assets/img/portada 1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="3500">
+          <img src="assets/img/portada 2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="3500">
+          <img src="assets/img/portada 3.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="3500">
+          <img src="assets/img/portada 4.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
+    <div class="video">
+      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/cF0h3Fg_5yA" title="YouTube video player" 
+      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
+      <button id="cerrar_btn" type="button" onclick=cerrar_vid()><i class="fa-solid fa-sort-up"></i></button>
+      <button id="abrir_btn" type="button" onclick=cerrar_vid()><i class="fa-solid fa-sort-down"></i></button>
+    </div>
+  </div>
+
+  <div class="separador"></div>
+
+  <!-- ACERCA DE NOSOTROS -->
+  <div class="acercade">
+    <div class="container p-4">
+      <div class="row h-100 align-items-center">
+        <div class="col-md-6 text-center">
+          <H1>Centro Educativo Getsemaní</H1>
+          <p class="texto-justificado">Inició sus labores de inscripción en octubre de 1986, siendo fundado por el Sr.
+            Julio Roberto Rodríguez Diéguez. Para el ciclo escolar de 1987, en la 3ra. Calle de la población de San
+            Lucas Sacatepéquez en la propiedad de doña Mercedes Borrayo Santa Cruz, con Pre-primaria y Primaria; Luego
+            en el año 1988 se expandió al nivel básico en las mismas instalaciones y fue necesario rentar la casa de don
+            Abelardo Reyes Arroyo, donde fue ubicada la Pre-primaria y 1ro. Primaria. En 1989 nos trasladamos a donde
+            actualmente tenemos las instalaciones. De ese tiempo hasta hoy se han hecho algunas adhesiones a la
+            infraestructura original y adquisiciones de tierra.
+          </p>
+        </div>
+
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-6 mb-4">
+              <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="3500">
+                    <img src="assets/img/mosaico1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="3500">
+                    <img src="assets/img/mosaico3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="3500">
+                    <img src="assets/img/mosaico4.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="3500">
+                    <img src="assets/img/mosaico2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="3500">
+                    <img src="assets/img/mosaico2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="3500">
+                    <img src="assets/img/mosaico1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="3500">
+                    <img src="assets/img/mosaico3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="3500">
+                    <img src="assets/img/mosaico4.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="3500">
+                    <img src="assets/img/mosaico3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="3500">
+                    <img src="assets/img/mosaico4.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="3500">
+                    <img src="assets/img/mosaico2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="3500">
+                    <img src="assets/img/mosaico1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="3500">
+                    <img src="assets/img/mosaico4.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="3500">
+                    <img src="assets/img/mosaico2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="3500">
+                    <img src="assets/img/mosaico1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="3500">
+                    <img src="assets/img/mosaico3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr style="color: #2e5652;">
+  <div class="separador"></div>
+  <hr style="color: #2e5652;">
+
+  <!-- INSTALACIONES -->
+  <div class="instalaciones p-4">
+    <div class="titulo">
+      <center>
+        <H1 style="color: black;">Nuestras Instalaciones</H1>
+      </center>
+    </div>
+    <div class="container fluid">
+      <div class="row">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+              aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+              aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+              aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"
+              aria-label="Slide 7"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7"
+              aria-label="Slide 8"></button>
+          </div>
+          <div class="carousel-inner">
+            <center>
+              <div class="carousel-item active">
+                <img src="assets/img/instalaciones1.jpg" class="img-fluid" id="img_cuadrada">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/instalaciones2.jpg" class="img-fluid" id="img_rectangular">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/instalaciones3.jpg" class="img-fluid" id="img_cuadrada">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/instalaciones4.jpg" class="img-fluid" id="img_cuadrada">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/instalaciones5.jpg" class="img-fluid" id="img_cuadrada">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/instalaciones6.jpg" class="img-fluid" id="img_cuadrada">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/instalaciones7.jpg" class="img-fluid" id="img_cuadrada">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/instalaciones8.jpg" class="img-fluid" id="img_cuadrada">
+              </div>
+          </div>
+          </center>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" style="background-color: #0D6759;" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" style="background-color: #0D6759;" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br>
+  <hr style="color: #2e5652;">
+  <div class="separador"></div>
+  <hr style="color: #2e5652;">
+
+  <!-- NIVELES -->
+  <div class="niveles mt-2 mb-4">
+    <div class="container">
+      <div class="row">
+         <div class="col-md-12">
+          <center>
+            <H1>Niveles</H1>
+          </center>
+         </div>
+        <div class="col-md-4">
+          <div class="card" style="border-color: #0D6759;">
+            <img src="assets/img/nivel primario y preprimario.jpg" class="img-fluid card-img-top" alt="">
+            <div class="card-body">
+              <center>
+                <h2>NIVEL PRIMARIO Y PREPRIMARIO</h2>
+              </center>
+              <p>Es el comienzo de una nueva etapa de los estudiantes y procuramos que ellos se sientan como en casa, dándoles la confianza desde 
+                pequeños.</p>
+                <a href="niveles.html">Ver más</a>
+            </div>
+            <div class="card-footer" style="background-color: #0D6759;">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card" style="border-color: #0D6759;">
+            <img src="assets/img/nivel basico.jpg" class="img-fluid card-img-top" style="height: 276px;" alt="">
+            <div class="card-body">
+              <center>
+                <h2>NIVEL DE EDUCACIÓN BASICO</h2>
+              </center>
+              <p>Se encuentran en la etapa de su adolescencia y se les orienta para que tengan un buen desempeño académico.</p>
+                <a href="niveles.html">Ver más</a>
+            </div>
+            <div class="card-footer" style="background-color: #0D6759;">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card" style="border-color: #0D6759;">
+            <img src="assets/img/nivel diversificado.jpg" class="img-fluid card-img-top" style="height: 276px;" alt="">
+            <div class="card-body">
+              <center>
+                <h2>NIVEL DE EDUCACIÓN DIVERSIFICADO</h2>
+              </center>
+              <p>Están en su etapa final de su formación académica del colegio y se les prepara para poder enfrentar y cambiar el mundo.</p>
+                <a href="niveles.html">Ver más</a>
+            </div>
+            <div class="card-footer" style="background-color: #0D6759;">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER   -->
+  <footer>
+    <div class="container mb-3">
+      <div class="row">
+        <div class="col-md-4 text-center mt-4">
+          <h6>Telefono</h6>
+          <p><i style="color: white;" class="fa-solid fa-phone"></i> 7830-8921</p>
+        </div>
+
+        <div class="col-md-4 text-center mt-4">
+          <h6>Dirección</h6>
+          <p><i style="color: white;" class="fa-solid fa-location-dot"></i> 2 avenida 3-00, Zona 1, San Lucas Sacatepequez 03008.</p>
+        </div>
+
+        <div class="col-md-4 text-center mt-4">
+          <h6>Siguenos</h6>
+          <a target="_blank" href="https://www.facebook.com/cegetsemani/"><i style="color: white;" class="fa-brands fa-square-facebook"></i> Centro Educativo Getsemani</a>
+          <br>
+          <a target="_blank" href="https://www.instagram.com/_2020_getse/"><i style="color: white;" class="fa-brands fa-instagram"></i> _2020_getse</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+      <script src="assets/js/progra.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+      </script>
+</body>
+</html>
